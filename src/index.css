@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Fira+Code:wght@300..700&family=Kaushan+Script&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+.custom-btn {
+  @apply relative overflow-hidden px-8 py-3 bg-gradient-to-tr from-cyan-700 to-cyan-900  shadow-lg hover:shadow-cyan-600/30 transition-all duration-300 rounded-full cursor-pointer;
+}
+
+@theme {
+  --font-firacode: "Fira Code", monospace;
+  --font-roboto: "Roboto", sans-serif;
+  --font-kaushan: "Kaushan Script", cursive;
+  --font-courgette: "Courgette", cursive;
+  --font-pacifico: "Pacifico", cursive;
+}
+
