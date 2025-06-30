@@ -20,4 +20,18 @@
 
 #### preview:
 
-![Desktop](https://github.com/shahjalal-labs/shahjalal-portfolio-v2/blob/main/public/preview/Desktop.png)
+#### `Desktop view:`
+
+![Desktop](src/assets/preview/Desktop.png)
+
+#### `Laptop view:`
+
+![Laptop](src/assets/preview/Laptop.png)
+
+#### `Mobile view:`
+
+![Mobile](src/assets/preview/Mobile.png)
+
+## 📝 About
+
+This is a portfolio website built using MERN stack, React.js, Node.js, Express.js, MongoDB Atlas, Tailwind CSS, and Vercel.
