@@ -225,3 +225,38 @@ You are free to use, modify, and distribute this project with attribution.
 - 💼 **LinkedIn**: [md-sj-825bb4341](https://www.linkedin.com/in/md-sj-825bb4341/)
 - ✉️ **Email**: _(contact via LinkedIn or GitHub)_
 - 💬 \*_Feel free to reach out for collaboration, feedback, or freelance opportunities._
+
+## 📸 Preview
+
+Explore the responsive design of this portfolio website across different device views. The screenshots below demonstrate the layout, visual hierarchy, and UI responsiveness optimized for desktop, laptop, and mobile devices.
+
+---
+
+### 🖥 Desktop View
+
+The desktop layout features a wide, spacious design that highlights the hero banner, navigation, and project showcases side-by-side for an immersive experience.
+
+![Desktop Preview](src/assets/preview/Desktop.png)
+
+---
+
+### 💻 Laptop View
+
+The laptop view adjusts elements for medium-sized screens, maintaining clarity and ease of navigation with slightly compact spacing and adaptive content arrangement.
+
+![Laptop Preview](src/assets/preview/Laptop.png)
+
+---
+
+### 📱 Mobile View
+
+The mobile design is fully responsive with vertical stacking, touch-friendly buttons, and optimized font sizes, ensuring an intuitive and accessible user experience on smaller screens.
+
+![Mobile Preview](src/assets/preview/Mobile.png)
+
+---
+
+> **Note:**  
+> These preview images are located under the `src/assets/preview/` directory and can be replaced or updated to reflect future UI changes.
+
+## `Please view the live site for getting dynamic previews of the website.`
