@@ -11,11 +11,13 @@ const ProjectCard = ({ project, index }) => (
     className={`${project.cardColor} border border-white/10 hover:${project.accent} transition-all duration-300 rounded-3xl overflow-hidden shadow-lg backdrop-blur-xl`}
   >
     <div className="p-6">
-      <img
-        src={project.image}
-        alt={project.title}
-        className="w-full h-[400px] object-to rounded-xl mb-4 border border-white/10"
-      />
+      <Link>
+        <img
+          src={project.image}
+          alt={project.title}
+          className="w-full h-[400px] object-to rounded-xl mb-4 border border-white/10"
+        />
+      </Link>
       <h3 className="text-2xl font-bold text-white mb-2">{project.title}</h3>
       <p className="text-gray-300 mb-4">{project.description}</p>
       <div className="flex flex-wrap items-center gap-3 mb-4 text-white/80 text-xl">

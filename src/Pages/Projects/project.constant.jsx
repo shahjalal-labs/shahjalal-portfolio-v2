@@ -1,4 +1,4 @@
-import flavorbook from "./ProjectsImage/flavorbook.png";
+import flavorbook from "./ProjectsImage/flavorbook4.png";
 import {
   FaGithub,
   FaExternalLinkAlt,
