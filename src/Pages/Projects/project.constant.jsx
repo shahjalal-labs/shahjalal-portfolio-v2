@@ -1,3 +1,4 @@
+import flavorbook from "./ProjectsImage/flavorbook.png";
 import {
   FaGithub,
   FaExternalLinkAlt,
@@ -11,7 +12,7 @@ import { SiMongodb, SiTailwindcss, SiExpress } from "react-icons/si";
 export const projects = [
   {
     id: 1,
-    title: "DevConnect - Developer Social Network",
+    title: "FlavorBook - Recipe Sharing & Recipe, Chefs, Product Marketplace.",
     description:
       "A full-stack social platform where developers can share posts, follow each other, and build a profile.",
     tech: [
@@ -21,9 +22,9 @@ export const projects = [
       <SiMongodb />,
       <SiTailwindcss />,
     ],
-    github: "https://github.com/yourname/devconnect",
-    live: "https://devconnect.app",
-    image: "/images/devconnect.png",
+    github: "https://github.com/shahjalal-labs/flavor-book-client",
+    live: "https://flavor-book.surge.sh/",
+    image: flavorbook,
     cardColor: "bg-gradient-to-br from-cyan-700/20 to-cyan-900/20",
     accent: "border-cyan-500/30",
   },

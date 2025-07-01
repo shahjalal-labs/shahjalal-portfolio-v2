@@ -14,7 +14,7 @@ const ProjectCard = ({ project, index }) => (
       <img
         src={project.image}
         alt={project.title}
-        className="w-full h-48 object-cover rounded-xl mb-4 border border-white/10"
+        className="w-full h-[400px] object-to rounded-xl mb-4 border border-white/10"
       />
       <h3 className="text-2xl font-bold text-white mb-2">{project.title}</h3>
       <p className="text-gray-300 mb-4">{project.description}</p>
