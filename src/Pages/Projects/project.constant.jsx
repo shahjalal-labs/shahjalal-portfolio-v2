@@ -38,9 +38,10 @@ export const projects = [
   },
   {
     id: 3,
-    title: "WorkElevate - Nation wide smart, transparent parcel delivery.",
+    title:
+      "WorkElevate – The Smart & Modern Job Portal for Job Seekers & Employers",
     description:
-      "WorkElevate isn’t just a digital tool — it’s a real-world logistics infrastructure, purpose-built to streamline and modernize parcel management across Bangladesh. It’s crafted not as a theoretical model, but as a practical, actionable, and deployable system that could serve thousands in real-time.",
+      "WorkElevate is your ultimate ultrasonic-powered platform, designed to connect talent with opportunity faster and smarter. It offers an intuitive, cutting-edge experience for job seekers and employers, bringing the future of hiring to Bangladesh today.",
     tech: [<FaReact />, <FaNodeJs />, <FaDatabase />],
     github:
       "https://github.com/shahjalal-labs/WorkElebate/tree/main/client-WorkElebate",

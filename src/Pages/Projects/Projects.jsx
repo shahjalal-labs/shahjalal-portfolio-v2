@@ -1,13 +1,4 @@
 import { motion } from "framer-motion";
-import {
-  FaGithub,
-  FaExternalLinkAlt,
-  FaCode,
-  FaReact,
-  FaNodeJs,
-  FaDatabase,
-} from "react-icons/fa";
-import { SiMongodb, SiTailwindcss, SiExpress } from "react-icons/si";
 import ProjectCard from "./ProjectCard";
 import { projects } from "./project.constant";
 
