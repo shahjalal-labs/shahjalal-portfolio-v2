@@ -9,7 +9,7 @@ A sleek, modern, and fully responsive portfolio website built with React, Tailwi
 | Type               | URL                                                                                |
 | ------------------ | ---------------------------------------------------------------------------------- |
 | 🔗 **GitHub Repo** | [shahjalal-portfolio-v2](https://github.com/shahjalal-labs/shahjalal-portfolio-v2) |
-| 🌍 **Live Site**   | [shahjalal-labs.surge.sh](http://shahjalal-labs.surge.sh/)                         |
+| 🌍 **Live Site**   | [shahjalal-mern.surge.sh](http://shahjalal-labs.surge.sh/)                         |
 | 🧑‍💼 **LinkedIn**    | [md-sj](https://www.linkedin.com/in/md-sj-825bb4341/)                              |
 | 📘 **Facebook**    | [Profile](https://www.facebook.com/profile.php?id=61556383702555)                  |
 | ▶️ **YouTube**     | [@muhommodshahjalal9811](https://www.youtube.com/@muhommodshahjalal9811)           |
