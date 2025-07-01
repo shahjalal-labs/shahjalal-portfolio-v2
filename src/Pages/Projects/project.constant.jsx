@@ -1,5 +1,6 @@
 import flavorbook from "./ProjectsImage/flavorbook.png";
 import eduverse from "./ProjectsImage/eduverse.png";
+import gontobbo from "./ProjectsImage/gontobbo.png";
 import {
   FaGithub,
   FaExternalLinkAlt,
@@ -32,7 +33,8 @@ export const projects = [
   {
     id: 2,
     title: "EduVerse - Online Interactive Education Platform",
-    description: "",
+    description:
+      "EduVerse is a MERN-based, fully authenticated, and interactive assignment submission platform designed for students and groups. With modern UI/UX, EduVerse enables students to collaborate, submit, and evaluate assignments seamlessly.",
     tech: [<FaReact />, <SiExpress />, <FaNodeJs />, <SiMongodb />],
     github: "https://github.com/shahjalal-labs/eduverse-client",
     live: "https://edu-verse.surge.sh/",
@@ -42,13 +44,13 @@ export const projects = [
   },
   {
     id: 3,
-    title: "CodeVerse - Online Code Editor",
+    title: "Gontobbo - Nation wide smart, transparent parcel delivery.",
     description:
-      "A real-time collaborative code editor with syntax highlighting and terminal simulation.",
+      "Gontobbo isn’t just a digital tool — it’s a real-world logistics infrastructure, purpose-built to streamline and modernize parcel management across Bangladesh. It’s crafted not as a theoretical model, but as a practical, actionable, and deployable system that could serve thousands in real-time.",
     tech: [<FaReact />, <FaNodeJs />, <FaDatabase />],
     github: "https://github.com/yourname/codeverse",
-    live: "https://codeverse.dev",
-    image: "/images/codeverse.png",
+    live: "https://workelevate.surge.sh/",
+    image: gontobbo,
     cardColor: "bg-gradient-to-br from-indigo-700/20 to-indigo-900/20",
     accent: "border-indigo-500/30",
   },
