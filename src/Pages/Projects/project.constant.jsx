@@ -1,4 +1,5 @@
-import flavorbook from "./ProjectsImage/flavorbook4.png";
+import flavorbook from "./ProjectsImage/flavorbook.png";
+import eduverse from "./ProjectsImage/eduverse.png";
 import {
   FaGithub,
   FaExternalLinkAlt,
@@ -30,12 +31,12 @@ export const projects = [
   },
   {
     id: 2,
-    title: "EduVerse",
+    title: "EduVerse - Online Interactive Education Platform",
     description: "",
     tech: [<FaReact />, <SiExpress />, <FaNodeJs />, <SiMongodb />],
-    github: "https://github.com/shahjalal-labs/EduVerse",
-    live: "https://taskforge.io",
-    image: "/images/taskforge.png",
+    github: "https://github.com/shahjalal-labs/eduverse-client",
+    live: "https://edu-verse.surge.sh/",
+    image: eduverse,
     cardColor: "bg-gradient-to-br from-purple-700/20 to-purple-900/20",
     accent: "border-purple-500/30",
   },
