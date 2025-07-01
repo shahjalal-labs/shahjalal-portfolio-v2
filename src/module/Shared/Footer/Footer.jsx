@@ -1,5 +1,11 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaEnvelope, FaTerminal } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaTerminal,
+  FaCode,
+} from "react-icons/fa";
 import { BsArrowUpRightCircle } from "react-icons/bs";
 
 const Footer = () => {
@@ -24,6 +30,11 @@ const Footer = () => {
         <FaEnvelope className="text-xl text-white group-hover:text-blue-400" />
       ),
       label: "Email",
+    },
+    {
+      href: "https://github.com/shahjalal-labs/shahjalal-portfolio-v2",
+      icon: <FaCode className="text-xl text-white group-hover:text-blue-400" />,
+      label: "Source Code",
     },
   ];
 
