@@ -1,6 +1,5 @@
 import { FaGithub, FaLinkedin, FaWhatsapp, FaFacebook } from "react-icons/fa";
 import { Link } from "react-router";
-import { motion } from "framer-motion";
 
 const ICONS = { FaGithub, FaLinkedin, FaWhatsapp, FaFacebook };
 
