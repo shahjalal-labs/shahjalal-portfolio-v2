@@ -14,7 +14,7 @@ export const projects = [
     id: 1,
     title: "FlavorBook - Recipe Sharing & Recipe, Chefs, Product Marketplace.",
     description:
-      "A full-stack social platform where developers can share posts, follow each other, and build a profile.",
+      "a full-featured and beautifully crafted web application designed to connect food lovers with chefs, ingredients, and delicious recipes. This platform allows users to browse, create, and manage recipes, explore blogs, book chefs, and even shop for ingredients—all in one place.",
     tech: [
       <FaReact />,
       <SiExpress />,
@@ -30,11 +30,10 @@ export const projects = [
   },
   {
     id: 2,
-    title: "TaskForge - Productivity SaaS",
-    description:
-      "A sleek task manager with user auth, priority tracking, and a drag-and-drop Kanban board.",
+    title: "EduVerse",
+    description: "",
     tech: [<FaReact />, <SiExpress />, <FaNodeJs />, <SiMongodb />],
-    github: "https://github.com/yourname/taskforge",
+    github: "https://github.com/shahjalal-labs/EduVerse",
     live: "https://taskforge.io",
     image: "/images/taskforge.png",
     cardColor: "bg-gradient-to-br from-purple-700/20 to-purple-900/20",

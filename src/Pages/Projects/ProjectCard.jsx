@@ -1,6 +1,7 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 import { motion } from "framer-motion";
+import { Link } from "react-router";
 
 const ProjectCard = ({ project, index }) => (
   <motion.div
@@ -11,7 +12,7 @@ const ProjectCard = ({ project, index }) => (
     className={`${project.cardColor} border border-white/10 hover:${project.accent} transition-all duration-300 rounded-3xl overflow-hidden shadow-lg backdrop-blur-xl`}
   >
     <div className="p-6">
-      <Link>
+      <Link to={project.live} target="_blank" rel="noopener noreferrer">
         <img
           src={project.image}
           alt={project.title}
