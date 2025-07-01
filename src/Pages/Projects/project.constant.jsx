@@ -1,14 +1,7 @@
 import flavorbook from "./ProjectsImage/flavorbook.png";
 import eduverse from "./ProjectsImage/eduverse.png";
 import gontobbo from "./ProjectsImage/gontobbo.png";
-import {
-  FaGithub,
-  FaExternalLinkAlt,
-  FaCode,
-  FaReact,
-  FaNodeJs,
-  FaDatabase,
-} from "react-icons/fa";
+import { FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
 import { SiMongodb, SiTailwindcss, SiExpress } from "react-icons/si";
 
 export const projects = [
@@ -44,6 +37,18 @@ export const projects = [
   },
   {
     id: 3,
+    title: "WorkElevate - Nation wide smart, transparent parcel delivery.",
+    description:
+      "WorkElevate isn’t just a digital tool — it’s a real-world logistics infrastructure, purpose-built to streamline and modernize parcel management across Bangladesh. It’s crafted not as a theoretical model, but as a practical, actionable, and deployable system that could serve thousands in real-time.",
+    tech: [<FaReact />, <FaNodeJs />, <FaDatabase />],
+    github: "https://github.com/yourname/codeverse",
+    live: "https://workelevate.surge.sh/",
+    image: gontobbo,
+    cardColor: "bg-gradient-to-br from-indigo-700/20 to-indigo-900/20",
+    accent: "border-indigo-500/30",
+  },
+  {
+    id: 4,
     title: "Gontobbo - Nation wide smart, transparent parcel delivery.",
     description:
       "Gontobbo isn’t just a digital tool — it’s a real-world logistics infrastructure, purpose-built to streamline and modernize parcel management across Bangladesh. It’s crafted not as a theoretical model, but as a practical, actionable, and deployable system that could serve thousands in real-time.",

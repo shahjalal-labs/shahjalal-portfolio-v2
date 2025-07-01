@@ -12,6 +12,7 @@ import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 import emailjs from "@emailjs/browser";
+import { FaGithub } from "react-icons/fa";
 
 const MySwal = withReactContent(Swal);
 
@@ -126,6 +127,12 @@ const Contact = () => {
                 title: "LinkedIn",
                 value: "Connect with me",
                 link: "https://www.linkedin.com/in/tanvir-islam-rakib/",
+              },
+              {
+                icon: <FaGithub className="text-gray-400 text-2xl" />,
+                title: "GitHub",
+                value: "shahjalal-labs",
+                link: "https://github.com/shahjalal-labs",
               },
               {
                 icon: <MdPhone className="text-green-400 text-2xl" />,
