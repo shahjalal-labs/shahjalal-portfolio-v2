@@ -26,7 +26,7 @@ export const socialLinks = [
   {
     icon: "FaLinkedin",
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/mdshahjalal/",
+    link: "https://www.linkedin.com/in/shahjalal-mern/",
   },
   {
     icon: "FaWhatsapp",

@@ -6,25 +6,26 @@
 ├── eslint.config.js
 ├── index.html
 ├── package.json
+├── PreviousREADME.md
 ├── public
-│   ├── favicon.png
-│   └── _redirects
+│   ├── CNAME
+│   └── favicon.png
+├── readmeGenerate.md
 ├── README.md
 ├── src
 │   ├── animation
 │   │   └── framermotion.constant.js
 │   ├── assets
-│   │   ├── event.PNG
-│   │   ├── freelance-task.PNG
-│   │   ├── historiVault.PNG
-│   │   ├── home.PNG
 │   │   ├── index.js
-│   │   ├── madicare.PNG
+│   │   ├── logoBlack.png
+│   │   ├── logoBlackRounded.png
+│   │   ├── logo.png
+│   │   ├── preview
+│   │   │   ├── Desktop.png
+│   │   │   ├── Laptop.png
+│   │   │   └── Mobile.png
 │   │   ├── profile.jpeg
-│   │   ├── rakib.jpg
 │   │   └── react.svg
-│   ├── Components
-│   │   └── AboutSection.jsx
 │   ├── hooks
 │   │   └── useScrollPosition.js
 │   ├── index.css
@@ -33,30 +34,60 @@
 │   │   ├── Landing
 │   │   │   └── Home
 │   │   │       ├── components
-│   │   │       │   ├── Hero
-│   │   │       │   │   ├── HeroCodeBlock.jsx
-│   │   │       │   │   ├── hero.constant.js
-│   │   │       │   │   └── SocialLinks.jsx
-│   │   │       │   └── Hero.jsx
+│   │   │       │   └── Hero
+│   │   │       │       ├── HeroCodeBlock.jsx
+│   │   │       │       ├── hero.constant.js
+│   │   │       │       ├── HeroDescription.jsx
+│   │   │       │       ├── Hero.jsx
+│   │   │       │       ├── HeroLeft.jsx
+│   │   │       │       ├── HeroResumeButton.jsx
+│   │   │       │       ├── HeroRight.jsx
+│   │   │       │       ├── HeroTitle.jsx
+│   │   │       │       ├── index.jsx
+│   │   │       │       └── SocialLinks.jsx
 │   │   │       └── pages
+│   │   │           └── HomePage.jsx
 │   │   └── Shared
+│   │       ├── Footer
+│   │       │   └── Footer.jsx
 │   │       └── Nav
 │   │           ├── NavbarConstant.jsx
 │   │           ├── NavbarItem.jsx
 │   │           └── Navbar.jsx
 │   ├── Pages
-│   │   ├── ContactSection.jsx
-│   │   ├── EducationSection.jsx
-│   │   ├── Home.jsx
-│   │   ├── ProjectShowSection.jsx
-│   │   └── SkillsSection.jsx
+│   │   ├── About
+│   │   │   ├── about.constant.jsx
+│   │   │   ├── AboutContent.jsx
+│   │   │   ├── AboutHeader.jsx
+│   │   │   ├── AboutImage.jsx
+│   │   │   ├── About.jsx
+│   │   │   └── AboutParagraphTypeWriter.jsx
+│   │   ├── Contact
+│   │   │   └── Contact.jsx
+│   │   ├── Education
+│   │   │   └── Education.jsx
+│   │   ├── Projects
+│   │   │   ├── ProjectCard.jsx
+│   │   │   ├── project.constant.jsx
+│   │   │   ├── ProjectsImage
+│   │   │   │   ├── eduverse.png
+│   │   │   │   ├── flavorbook.png
+│   │   │   │   ├── gontobbo.png
+│   │   │   │   └── workelevate.png
+│   │   │   └── Projects.jsx
+│   │   ├── skills
+│   │   │   ├── SkillCategories.jsx
+│   │   │   └── Skills.jsx
+│   │   └── WorkFlow
+│   │       └── Workflow.jsx
 │   ├── RootLayout
 │   │   └── RootLayout.jsx
-│   └── Router
-│       └── router.jsx
+│   ├── Router
+│   │   └── router.jsx
+│   └── utils
 ├── structure.md
 └── vite.config.js
 
-18 directories, 37 files
+27 directories, 59 files
 
 ```
