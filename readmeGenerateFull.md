@@ -1,3 +1,201 @@
+Generate a professional, modern, and production-ready `README.md` file based on my project. Your entire output **must be enclosed within a single markdown code block** using triple backticks and `markdown` as the language. Absolutely **no text should be outside** the code block. The structure, formatting, and content should follow **industry best practices** for open-source projects, with clearly separated sections (e.g., Features, Tech Stack, Installation, Routing & Folder Structure, License, Contribution, etc.).
+
+The markdown must:
+- Your entire output must be inside one **single** markdown code block using triple backticks (```) and `markdown` as the language.
+- Use clear section headers (`##`) and subheaders (`###`) consistently.
+- Include emoji icons in section titles for modern visual appeal.
+- Apply bullet lists, tables, and code fences (``` ) for commands and code.
+- Include **three tables** for routing/folder structure with increasing detail: summary, semi-detailed, and advanced.
+- Include explanations for routing and components below the tables.
+- Include a **UI Preview section** with screenshots grouped by Desktop, Laptop, Mobile. Sort images by their numeric suffix.
+- Be **ready to paste directly** into a markdown previewer with no extra modification.
+- Contain no redundant explanations or system-generated text outside the markdown block.
+
+Make sure this `README.md` looks visually appealing, easy to read, and suitable for developers on GitHub or other platforms. Output strictly in one markdown code block.
+
+
+
+## 📁 File Structure
+```bash
+.
+├── bun.lock
+├── eslint.config.js
+├── .gitignore
+├── index.html
+├── package.json
+├── PreviousREADME.md
+├── public
+│   ├── CNAME
+│   └── favicon.png
+├── readmeGenerate.md
+├── README.md
+├── src
+│   ├── animation
+│   │   └── framermotion.constant.js
+│   ├── assets
+│   │   ├── images
+│   │   │   └── preview
+│   │   ├── index.js
+│   │   ├── logoBlack.png
+│   │   ├── logoBlackRounded.png
+│   │   ├── logo.png
+│   │   ├── preview
+│   │   │   ├── Desktop.png
+│   │   │   ├── Laptop.png
+│   │   │   └── Mobile.png
+│   │   ├── profile.jpeg
+│   │   └── react.svg
+│   ├── hooks
+│   │   └── useScrollPosition.js
+│   ├── index.css
+│   ├── main.jsx
+│   ├── module
+│   │   ├── Landing
+│   │   │   └── Home
+│   │   └── Shared
+│   │       ├── Footer
+│   │       └── Nav
+│   ├── Pages
+│   │   ├── About
+│   │   │   ├── about.constant.jsx
+│   │   │   ├── AboutContent.jsx
+│   │   │   ├── AboutHeader.jsx
+│   │   │   ├── AboutImage.jsx
+│   │   │   ├── About.jsx
+│   │   │   ├── AboutParagraphTypeWriter.jsx
+│   │   │   └── ResumeSection.jsx
+│   │   ├── Contact
+│   │   │   └── Contact.jsx
+│   │   ├── Education
+│   │   │   └── Education.jsx
+│   │   ├── Projects
+│   │   │   ├── ProjectCard.jsx
+│   │   │   ├── project.constant.jsx
+│   │   │   ├── ProjectsImage
+│   │   │   └── Projects.jsx
+│   │   ├── skills
+│   │   │   ├── SkillCategories.jsx
+│   │   │   └── Skills.jsx
+│   │   └── WorkFlow
+│   │       └── Workflow.jsx
+│   ├── RootLayout
+│   │   └── RootLayout.jsx
+│   ├── Router
+│   │   └── router.jsx
+│   └── utils
+├── structure.md
+└── vite.config.js
+
+26 directories, 42 files
+
+```
+
+
+## 📦 package.json
+```json
+{
+  "name": "my-portfolio-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@tailwindcss/vite": "^4.1.11",
+    "framer-motion": "^12.19.2",
+    "prismjs": "^1.30.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hook-form": "^7.59.0",
+    "react-icons": "^5.5.0",
+    "react-router": "^7.6.3",
+    "react-simple-typewriter": "^5.0.1",
+    "sweetalert2": "^11.22.1",
+    "sweetalert2-react-content": "^5.1.0",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.5.2",
+    "eslint": "^9.29.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.2.0",
+    "vite": "^7.0.0"
+  }
+}
+
+```
+
+
+## 🗺️ Routes
+```js
+
+// File: src/Router/router.jsx
+
+import { createBrowserRouter } from "react-router";
+import RootLayout from "../RootLayout/RootLayout";
+import HomePage from "../module/Landing/Home/pages/HomePage";
+import About from "../Pages/About/About";
+import Skills from "../Pages/skills/Skills";
+import Education from "../Pages/Education/Education";
+import Contact from "../Pages/Contact/Contact";
+import Projects from "../Pages/Projects/Projects";
+import WorkFlow from "../Pages/WorkFlow/Workflow";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    Component: RootLayout,
+    errorElement: <div>Error occured!!</div>,
+    children: [
+      {
+        index: true,
+        Component: HomePage,
+      },
+      {
+        path: "skills",
+        Component: Skills,
+      },
+      {
+        path: "education",
+        Component: Education,
+      },
+      {
+        path: "projects",
+        Component: Projects,
+      },
+      {
+        path: "about",
+        Component: About,
+      },
+      {
+        path: "contact",
+        Component: Contact,
+      },
+      {
+        path: "workflow",
+        Component: WorkFlow,
+      },
+    ],
+  },
+]);
+
+export default router;
+
+
+```
+
+
+## 📄 Existing README
+```md
 # 🚀 shahjalal-portfolio-v2
 
 A sleek, modern, and fully responsive portfolio website built with React, Tailwind CSS, Framer Motion, and Vite. This project showcases my skills, education, projects, and workflow in a visually rich and animated interface, optimized for all devices.
@@ -232,48 +430,55 @@ Explore the responsive design of this portfolio website across different device 
 
 ---
 
-<!-- ### 🖥 Desktop View -->
-<!---->
-<!-- The desktop layout features a wide, spacious design that highlights the hero banner, navigation, and project showcases side-by-side for an immersive experience. -->
-<!---->
-<!-- ![Desktop Preview](src/assets/preview/Desktop.png) -->
-<!---->
-<!-- --- -->
-<!---->
-<!-- ### 💻 Laptop View -->
-<!---->
-<!-- The laptop view adjusts elements for medium-sized screens, maintaining clarity and ease of navigation with slightly compact spacing and adaptive content arrangement. -->
-<!---->
-<!-- ![Laptop Preview](src/assets/preview/Laptop.png) -->
-
-<!-- updated view -->
-
-### 🖥️ Desktop View
-
-**Home Page1**  
-![](src/assets/images/preview/Desktop/Home/HomePage1.png)
-
-### 💻 Laptop View
-
-**Home Page1**  
-![](src/assets/images/preview/Laptop/HomePage1.png)
-
-### 📱 Mobile View
-
-**Home Page1**  
-![](src/assets/images/preview/Mobile/HomePage1.png)
-
-## <!---->
-
-### 📱 Mobile View
-
-The mobile design is fully responsive with vertical stacking, touch-friendly buttons, and optimized font sizes, ensuring an intuitive and accessible user experience on smaller screens.
-
-![Mobile Preview](src/assets/preview/Mobile.png)
-
 ---
 
 > **Note:**  
 > These preview images are located under the `src/assets/preview/` directory and can be replaced or updated to reflect future UI changes.
 
 ## `Please view the live site for getting dynamic previews of the website.`
+
+```
+
+## 🗺️ Routing & Folder Structure
+
+### 1️⃣ Routes Summary Table (Quick Overview)
+
+| Route Path | Purpose              | Auth Required | Notes              |
+|------------|----------------------|---------------|--------------------|
+| *Dynamically generate this table based on your project routes and structure.* | | | |
+
+### 2️⃣ Routes Semi-Detailed Table (Add Components & HTTP Methods)
+
+| Route Path | HTTP Method | Purpose           | UI Component(s)           | Auth Required |
+|------------|-------------|-------------------|---------------------------|---------------|
+| *Dynamically generate this table with more detail including HTTP methods and components.* | | | | |
+
+### 3️⃣ Folder & Component Structure Table (Advanced Detail)
+
+| Folder / File Path             | Purpose / Role                   | UI Features or Related Components         | Notes                          |
+|-------------------------------|---------------------------------|-------------------------------------------|-------------------------------|
+| *Generate an advanced detailed table describing folder structure, components, and UI features.* | | | |
+
+
+### Routing & Components Explanation
+
+Provide clear explanations for the routing conventions, protected vs public routes, and UI component responsibilities below the tables.
+
+
+
+## 🖼️ UI Preview Section
+
+### 🖥️ Desktop View
+
+**Home Page1**  
+![](<src/assets/images/preview/Desktop/Home/HomePage1.png>)
+
+### 💻 Laptop View
+
+**Home Page1**  
+![](<src/assets/images/preview/Laptop/HomePage1.png>)
+
+### 📱 Mobile View
+
+**Home Page1**  
+![](<src/assets/images/preview/Mobile/HomePage1.png>)
