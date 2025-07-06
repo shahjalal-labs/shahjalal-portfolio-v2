@@ -45,7 +45,8 @@ const About = () => {
           <AboutContent />
         </div>
       </div>
-      {isAboutPage && <ResumeSection />}
+      {/* {isAboutPage && <ResumeSection />} */}
+      <ResumeSection />
     </section>
   );
 };
