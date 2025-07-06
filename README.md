@@ -257,6 +257,123 @@ git push origin feature-name
 
 ---
 
+## ❓ FAQ
+
+### ❓ Why Bun over npm or Yarn?
+
+> Bun offers faster installs, native TypeScript support, and a lightweight runtime — making it ideal for modern Vite-based projects.
+
+---
+
+### 🚀 How do I deploy this portfolio?
+
+You can deploy it easily using any of the following:
+
+- **Surge**
+
+  ```bash
+  bun run build
+  surge dist
+  ```
+
+- **Vercel** / **Netlify**
+  Connect your GitHub repository and follow their UI-based deploy process.
+
+---
+
+### 🧩 Can I customize the content for my own portfolio?
+
+> Yes! Everything is modular. You can edit text/images inside the `About`, `Projects`, `Skills`, and `Contact` pages.
+
+---
+
+### 🖼️ How do I add my own project cards?
+
+Head to `src/Pages/Projects/project.constant.jsx` and update or add new project objects:
+
+```js
+{
+  title: "Your Project",
+  description: "What it does",
+  image: "/path-to-image.png",
+  github: "https://github.com/your-repo",
+  live: "https://your-live-site.com"
+}
+```
+
+---
+
+### 🧠 How can I add new routes/pages?
+
+1. Create your new page component in `src/Pages/YourPage/YourPage.jsx`
+2. Import it in `src/Router/router.jsx`
+3. Add a new route object like:
+
+```js
+{ path: "your-path", Component: YourPage }
+```
+
+---
+
+### 💻 Can I use this as my real personal website?
+
+> Absolutely. Replace the content, links, and images with your own and deploy. It’s designed to look professional and modern.
+
+---
+
+### 🎨 Can I change the color scheme or font?
+
+Yes. Tailwind makes it easy.  
+Update the `tailwind.config.js` file or override styles in your `index.css`.
+
+---
+
+### 🌐 How do I update social/media links?
+
+Edit the relevant social links in the `Footer`, `Contact`, or `About` sections under `src/module/Shared` or `src/Pages`.
+
+---
+
+### 📝 Can I add a blog section to this portfolio?
+
+> Yes — but you’ll need to add new routes, components, and potentially state handling. The modular structure makes it easy to extend.
+
+---
+
+### 🛑 Is this SEO-optimized?
+
+> Not by default. But you can add meta tags in `index.html` or use libraries like `react-helmet` for better SEO support.
+
+---
+
+### 📬 How do I receive emails from the contact form?
+
+Set up your EmailJS credentials in `.env`, and use their email template/dashboard.
+
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+---
+
+### 🧪 Is testing implemented?
+
+> Not yet. But you can easily extend this project with:
+
+- [Vitest](https://vitest.dev/)
+- [React Testing Library](https://testing-library.com/)
+- [Cypress](https://www.cypress.io/) for end-to-end testing
+
+---
+
+### 🛠 Can I reuse components in my own project?
+
+> Absolutely. This project is MIT licensed — just provide attribution when using significant portions of the codebase.
+
+---
+
 ## 📜 License
 
 This project is licensed under the **[MIT License](https://opensource.org/licenses/MIT)**.  
@@ -275,6 +392,8 @@ You are free to use, modify, and distribute this project with attribution.
 - 💬 \*_Feel free to reach out for collaboration, feedback, or freelance opportunities._
 
 ## 📸 Preview
+
+## `Please view the live site for getting latest and dynamic previews of the website.`
 
 Explore the responsive design of this portfolio website across different device views. The screenshots below demonstrate the layout, visual hierarchy, and UI responsiveness optimized for desktop, laptop, and mobile devices.
 
