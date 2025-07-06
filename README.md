@@ -209,6 +209,8 @@ The following table provides a concise overview of all defined routes, their cor
 | `/workflow`   | `WorkFlow`     | Developer process and workflow   |
 | `*`           | Error fallback | Displays a generic error message |
 
+---
+
 ## 🛠️ Installation & Setup
 
 Set up the project locally in just a few steps:
@@ -225,17 +227,46 @@ bun install
 
 # Start the development server
 bun run dev
+```
+
+> ⚡ Powered by **Vite** for an ultra-fast dev server and optimized build system.
+
+---
+
+## 🤝 Contribution
+
+Contributions, suggestions, and improvements are welcome!  
+If you'd like to contribute:
+
+```bash
+🍴 Fork the repository
+
+🛠 Create a new branch
+git checkout -b feature-name
+
+📦 Make your changes and commit
+git commit -m "add new feature"
+
+🚀 Push to the branch
+git push origin feature-name
+
+🔁 Create a pull request
+```
+
+> ✅ All contributions should follow the existing code style and project structure.
+
+---
 
 ## 📜 License
 
-This project is licensed under the **[MIT License](https://opensource.org/licenses/MIT)**.
+This project is licensed under the **[MIT License](https://opensource.org/licenses/MIT)**.  
 You are free to use, modify, and distribute this project with attribution.
 
 ---
 
 ## 🙋‍♂️ Author
 
-**Md Shahjalal**
+**Md Shahjalal**  
 📍 Sharifpur, Gazipur, Dhaka, Bangladesh
 
 - 🧑‍💻 **GitHub**: [@shahjalal-labs](https://github.com/shahjalal-labs)
@@ -267,25 +298,24 @@ Explore the responsive design of this portfolio website across different device 
 
 ### 🖥️ Desktop View
 
-**Home Page**
+**Home Page**  
 ![](src/assets/images/preview/Desktop/Home/HomePage1.png)
 
 ### 💻 Laptop View
 
-**Home Page**
+**Home Page**  
 ![](src/assets/images/preview/Laptop/HomePage1.png)
 
 ### 📱 Mobile View
 
 The mobile design is fully responsive with vertical stacking, touch-friendly buttons, and optimized font sizes, ensuring an intuitive and accessible user experience on smaller screens.
 
-**Home Page**
+**Home Page**  
 ![](src/assets/images/preview/Mobile/HomePage1.png)
 
 ---
 
-> **Note:**
+> **Note:**  
 > These preview images are located under the `src/assets/preview/` directory and can be replaced or updated to reflect future UI changes.
 
 ## `Please view the live site for getting dynamic previews of the website.`
-```
