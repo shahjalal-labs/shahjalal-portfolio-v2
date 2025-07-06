@@ -3,6 +3,7 @@ import { useLocation } from "react-router";
 import AboutHeader from "./AboutHeader";
 import AboutImage from "./AboutImage";
 import AboutContent from "./AboutContent";
+import ResumeSection from "./ResumeSection";
 
 const About = () => {
   const isAboutPage = useLocation().pathname === "/about";
@@ -44,6 +45,7 @@ const About = () => {
           <AboutContent />
         </div>
       </div>
+      {isAboutPage && <ResumeSection />}
     </section>
   );
 };
