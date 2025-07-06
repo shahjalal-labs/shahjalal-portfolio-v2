@@ -209,16 +209,33 @@ The following table provides a concise overview of all defined routes, their cor
 | `/workflow`   | `WorkFlow`     | Developer process and workflow   |
 | `*`           | Error fallback | Displays a generic error message |
 
+## 🛠️ Installation & Setup
+
+Set up the project locally in just a few steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/shahjalal-labs/shahjalal-portfolio-v2.git
+
+# Navigate into the project directory
+cd shahjalal-portfolio-v2
+
+# Install dependencies (using Bun)
+bun install
+
+# Start the development server
+bun run dev
+
 ## 📜 License
 
-This project is licensed under the **[MIT License](https://opensource.org/licenses/MIT)**.  
+This project is licensed under the **[MIT License](https://opensource.org/licenses/MIT)**.
 You are free to use, modify, and distribute this project with attribution.
 
 ---
 
 ## 🙋‍♂️ Author
 
-**Md Shahjalal**  
+**Md Shahjalal**
 📍 Sharifpur, Gazipur, Dhaka, Bangladesh
 
 - 🧑‍💻 **GitHub**: [@shahjalal-labs](https://github.com/shahjalal-labs)
@@ -250,30 +267,25 @@ Explore the responsive design of this portfolio website across different device 
 
 ### 🖥️ Desktop View
 
-**Home Page1**  
+**Home Page**
 ![](src/assets/images/preview/Desktop/Home/HomePage1.png)
 
 ### 💻 Laptop View
 
-**Home Page1**  
+**Home Page**
 ![](src/assets/images/preview/Laptop/HomePage1.png)
-
-### 📱 Mobile View
-
-**Home Page1**  
-![](src/assets/images/preview/Mobile/HomePage1.png)
-
-## <!---->
 
 ### 📱 Mobile View
 
 The mobile design is fully responsive with vertical stacking, touch-friendly buttons, and optimized font sizes, ensuring an intuitive and accessible user experience on smaller screens.
 
-![Mobile Preview](src/assets/preview/Mobile.png)
+**Home Page**
+![](src/assets/images/preview/Mobile/HomePage1.png)
 
 ---
 
-> **Note:**  
+> **Note:**
 > These preview images are located under the `src/assets/preview/` directory and can be replaced or updated to reflect future UI changes.
 
 ## `Please view the live site for getting dynamic previews of the website.`
+```

@@ -27,6 +27,7 @@ Make sure this `README.md` looks visually appealing, easy to read, and suitable 
 ├── public
 │   ├── CNAME
 │   └── favicon.png
+├── readmeGenerateFull.md
 ├── readmeGenerate.md
 ├── README.md
 ├── src
@@ -86,7 +87,7 @@ Make sure this `README.md` looks visually appealing, easy to read, and suitable 
 ├── structure.md
 └── vite.config.js
 
-26 directories, 42 files
+26 directories, 43 files
 
 ```
 
@@ -429,6 +430,45 @@ You are free to use, modify, and distribute this project with attribution.
 Explore the responsive design of this portfolio website across different device views. The screenshots below demonstrate the layout, visual hierarchy, and UI responsiveness optimized for desktop, laptop, and mobile devices.
 
 ---
+
+<!-- ### 🖥 Desktop View -->
+<!---->
+<!-- The desktop layout features a wide, spacious design that highlights the hero banner, navigation, and project showcases side-by-side for an immersive experience. -->
+<!---->
+<!-- ![Desktop Preview](src/assets/preview/Desktop.png) -->
+<!---->
+<!-- --- -->
+<!---->
+<!-- ### 💻 Laptop View -->
+<!---->
+<!-- The laptop view adjusts elements for medium-sized screens, maintaining clarity and ease of navigation with slightly compact spacing and adaptive content arrangement. -->
+<!---->
+<!-- ![Laptop Preview](src/assets/preview/Laptop.png) -->
+
+<!-- updated view -->
+
+### 🖥️ Desktop View
+
+**Home Page**  
+![](src/assets/images/preview/Desktop/Home/HomePage1.png)
+
+### 💻 Laptop View
+
+**Home Page**  
+![](src/assets/images/preview/Laptop/HomePage1.png)
+
+### 📱 Mobile View
+
+The mobile design is fully responsive with vertical stacking, touch-friendly buttons, and optimized font sizes, ensuring an intuitive and accessible user experience on smaller screens.
+
+**Home Page**  
+![](src/assets/images/preview/Mobile/HomePage1.png)
+
+## <!---->
+
+### 📱 Mobile View
+
+![Mobile Preview](src/assets/preview/Mobile.png)
 
 ---
 
