@@ -189,7 +189,7 @@ const ResumeSection = () => {
           ⬇️ Download PDF
         </a>
         <a
-          href="/Shahjalal_Resume.pdf"
+          href="https://drive.google.com/file/d/1vK_JUTnxlgq00LtJlMJ6v11ltVu5WHCR/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-transparent border border-white/20 hover:border-white text-white px-6 py-2 rounded-lg transition"

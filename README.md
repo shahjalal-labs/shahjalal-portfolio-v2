@@ -393,7 +393,7 @@ You are free to use, modify, and distribute this project with attribution.
 
 ## 📸 Preview
 
-## `Please view the live site for getting latest and dynamic previews of the website.`
+### `Please view the live site for getting latest and dynamic previews of the website.`
 
 Explore the responsive design of this portfolio website across different device views. The screenshots below demonstrate the layout, visual hierarchy, and UI responsiveness optimized for desktop, laptop, and mobile devices.
 
