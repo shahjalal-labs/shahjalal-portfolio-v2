@@ -4,18 +4,29 @@
 .
 ├── bun.lock
 ├── eslint.config.js
+├── ghAbout.md
 ├── index.html
 ├── package.json
 ├── PreviousREADME.md
 ├── public
 │   ├── CNAME
-│   └── favicon.png
+│   ├── favicon.png
+│   └── Shahjalal_Resume.pdf
 ├── readmeGenerate.md
 ├── README.md
 ├── src
 │   ├── animation
 │   │   └── framermotion.constant.js
 │   ├── assets
+│   │   ├── images
+│   │   │   └── preview
+│   │   │       ├── Desktop
+│   │   │       │   └── Home
+│   │   │       │       └── HomePage1.png
+│   │   │       ├── Laptop
+│   │   │       │   └── HomePage1.png
+│   │   │       └── Mobile
+│   │   │           └── HomePage1.png
 │   │   ├── index.js
 │   │   ├── logoBlack.png
 │   │   ├── logoBlackRounded.png
@@ -61,7 +72,8 @@
 │   │   │   ├── AboutHeader.jsx
 │   │   │   ├── AboutImage.jsx
 │   │   │   ├── About.jsx
-│   │   │   └── AboutParagraphTypeWriter.jsx
+│   │   │   ├── AboutParagraphTypeWriter.jsx
+│   │   │   └── ResumeSection.jsx
 │   │   ├── Contact
 │   │   │   └── Contact.jsx
 │   │   ├── Education
@@ -88,6 +100,6 @@
 ├── structure.md
 └── vite.config.js
 
-27 directories, 59 files
+33 directories, 65 files
 
 ```
