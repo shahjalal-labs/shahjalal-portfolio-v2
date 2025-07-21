@@ -26,17 +26,18 @@ export const socialLinks = [
   {
     icon: "FaLinkedin",
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/shahjalal-mern/",
+    link: "https://www.linkedin.com/in/shahjalal-labs/",
+  },
+
+  {
+    icon: "FaFacebook",
+    label: "Facebook",
+    link: "https://www.facebook.com/shahjalal.labs",
   },
   {
     icon: "FaWhatsapp",
     label: "WhatsApp",
     link: "https://wa.me/+8801989763775",
-  },
-  {
-    icon: "FaFacebook",
-    label: "Facebook",
-    link: "https://www.facebook.com/shahjalal",
   },
 ];
 

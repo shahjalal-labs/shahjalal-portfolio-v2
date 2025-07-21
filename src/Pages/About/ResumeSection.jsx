@@ -6,7 +6,7 @@ const ResumeSection = () => {
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      className="relative z-10 mt-20 bg-[#0f1115]/80 backdrop-blur-md rounded-2xl p-8 shadow-xl border border-white/10 sm:mx-10  2xl:mx-48"
+      className="relative z-10 mt-20 bg-[#0f1115]/80 backdrop-blur-md rounded-2xl p-8 shadow-xl border border-white/10 max-w-[1100px] mx-auto "
     >
       <h2 className="text-3xl font-bold text-white mb-6">📄 Resume</h2>
 
@@ -14,7 +14,7 @@ const ResumeSection = () => {
         <p>
           <strong className="text-white text-lg">Md. Shahjalal</strong>
           <br />
-          Junior MERN Stack Developer
+          Mern Stack Developer
         </p>
         <p>📞 +8801540325659 | 📧 muhommodshahjalal@gmail.com</p>
         <p>📍 Gazipur, Dhaka, Bangladesh</p>
@@ -22,20 +22,23 @@ const ResumeSection = () => {
           🔗{" "}
           <a
             href="https://github.com/shahjalal-labs"
+            target="_blank"
             className="text-blue-400 underline"
           >
             GitHub
           </a>{" "}
           |
           <a
-            href="https://www.linkedin.com/in/shahjalal-mern/"
+            href="https://www.linkedin.com/in/shahjalal-labs/"
+            target="_blank"
             className="text-blue-400 underline ml-2"
           >
             LinkedIn
           </a>{" "}
           |
           <a
-            href="http://shahjalal-mern.surge.sh"
+            href="http://shahjalal-labs.surge.sh"
+            target="_blank"
             className="text-blue-400 underline ml-2"
           >
             Portfolio
@@ -106,6 +109,7 @@ const ResumeSection = () => {
             |{" "}
             <a
               href="https://github.com/shahjalal-labs/flavor-book-client"
+              target="_blank"
               className="text-blue-400 underline"
             >
               GitHub (Client)
@@ -129,6 +133,7 @@ const ResumeSection = () => {
             🔗{" "}
             <a
               href="https://edu-verse.surge.sh"
+              target="_blank"
               className="text-blue-400 underline"
             >
               Live Site
@@ -136,6 +141,7 @@ const ResumeSection = () => {
             |{" "}
             <a
               href="https://github.com/shahjalal-labs/eduverse-client"
+              target="_blank"
               className="text-blue-400 underline"
             >
               GitHub (Client)
@@ -172,6 +178,7 @@ const ResumeSection = () => {
             🔗{" "}
             <a
               href="https://github.com/shahjalal-labs/allDotfilesBackupEndeavourOs"
+              target="_blank"
               className="text-blue-400 underline"
             >
               Dotfiles Repository
@@ -189,7 +196,7 @@ const ResumeSection = () => {
           ⬇️ Download PDF
         </a>
         <a
-          href="https://drive.google.com/file/d/1vK_JUTnxlgq00LtJlMJ6v11ltVu5WHCR/view?usp=sharing"
+          href="https://drive.google.com/file/d/1HAkBOSth-W68Df8O0uZM7KfZx-9CQGd7/view"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-transparent border border-white/20 hover:border-white text-white px-6 py-2 rounded-lg transition"
