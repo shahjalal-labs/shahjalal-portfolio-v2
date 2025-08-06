@@ -12,7 +12,7 @@ const HeroResumeButton = () => (
     <div className="relative flex flex-row-reverse items-center gap-2 ">
       <HiDownload className="w-6 h-6 text-purple-800" />
       <Link
-        to="https://drive.google.com/file/d/1HAkBOSth-W68Df8O0uZM7KfZx-9CQGd7/view?usp=sharing"
+        to="https://drive.google.com/file/d/1eKx1OO7p2tvSIxPKD1aDHu6sgPkVcJwN/view"
         className="text-lg font-semibold text-purple-950"
         target="_blank"
         rel="noreferrer noopener"

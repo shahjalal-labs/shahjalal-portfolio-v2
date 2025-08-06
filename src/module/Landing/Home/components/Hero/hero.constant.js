@@ -37,7 +37,7 @@ export const socialLinks = [
   {
     icon: "FaWhatsapp",
     label: "WhatsApp",
-    link: "https://wa.me/+8801989763775",
+    link: "https://wa.me/+8801540325659",
   },
 ];
 
