@@ -2,17 +2,17 @@
 
 A sleek, modern, and fully responsive portfolio website built with React, Tailwind CSS, Framer Motion, and Vite. This project showcases my skills, education, projects, and workflow in a visually rich and animated interface, optimized for all devices.
 
----
+## ![Screenshot](src/assets/screenshots/ss-10-08-43-AM_06-08-25.png)
 
 ## 🌐 Live Links
 
 | Type               | URL                                                                                |
 | ------------------ | ---------------------------------------------------------------------------------- |
 | 🔗 **GitHub Repo** | [shahjalal-portfolio-v2](https://github.com/shahjalal-labs/shahjalal-portfolio-v2) |
-| 🌍 **Live Site**   | [shahjalal-mern.surge.sh](http://shahjalal-mern.surge.sh/)                         |
-| 🧑‍💼 **LinkedIn**    | [md-sj](https://www.linkedin.com/in/md-sj-825bb4341/)                              |
-| 📘 **Facebook**    | [Profile](https://www.facebook.com/profile.php?id=61556383702555)                  |
-| ▶️ **YouTube**     | [@muhommodshahjalal9811](https://www.youtube.com/@muhommodshahjalal9811)           |
+| 🌍 **Live Site**   | [shahjalal-labs.surge.sh](https://shahjalal-labs.surge.sh/)                        |
+| 🧑‍💼 **LinkedIn**    | [shahjalal-labs](https://www.linkedin.com/in/shahjalal-labs/)                      |
+| 📘 **Facebook**    | [shahjalal.labs](https://www.facebook.com/shahjalal.labs)                          |
+| ▶️ **YouTube**     | [@shahjalal-labs](https://www.youtube.com/@shahjalal-labs)                         |
 
 ---
 
@@ -437,4 +437,4 @@ The mobile design is fully responsive with vertical stacking, touch-friendly but
 > **Note:**  
 > These preview images are located under the `src/assets/preview/` directory and can be replaced or updated to reflect future UI changes.
 
-## `Please view the live site for getting dynamic previews of the website.`
+## `Please view the live site for getting dynamic and updated preview of the website.`
