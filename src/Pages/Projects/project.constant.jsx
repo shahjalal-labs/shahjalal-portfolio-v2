@@ -2,10 +2,40 @@ import flavorbook from "./ProjectsImage/flavorbook.png";
 import eduverse from "./ProjectsImage/eduverse.png";
 import gontobbo from "./ProjectsImage/gontobbo.png";
 import workelevate from "./ProjectsImage/workelevate.png";
+import deshguide from "./ProjectsImage/deshguide.png";
 import { FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
 import { SiMongodb, SiTailwindcss, SiExpress } from "react-icons/si";
 
 export const projects = [
+  {
+    id: 0,
+    title: "DeshGuide - Tourism Management System for Bangladesh",
+    description:
+      "DeshGuide is a feature-rich tourism platform built with React, empowering tourists, guides, and admins with package booking, story sharing, and Stripe payments. It showcases Bangladesh’s destinations with real-time updates, role-based dashboards, and modern UI/UX.",
+    tech: [
+      <FaReact title="React" />,
+      <SiExpress title="Express.js" />,
+      <FaNodeJs title="Node.js" />,
+      <SiMongodb title="MongoDB" />,
+      <SiTailwindcss title="Tailwind CSS" />,
+      <span title="DaisyUI">🌼</span>,
+      <span title="TanStack Query">🔄</span>,
+      <span title="Firebase">🔥</span>,
+      <span title="JWT Auth">🔐</span>,
+      <span title="Stripe">💳</span>,
+      <span title="React Router">🔀</span>,
+      <span title="React Hook Form">📝</span>,
+      <span title="Lottie React">🎞️</span>,
+      <span title="Framer Motion">🌀</span>,
+      <span title="Date-fns / Day.js">📅</span>,
+    ],
+    github: "https://github.com/shahjalal-labs/DeshGuide-client",
+    live: "https://deshguide.surge.sh",
+    image: deshguide,
+    cardColor: "bg-gradient-to-br from-emerald-700/20 to-emerald-900/20",
+    accent: "border-emerald-500/30",
+  },
+
   {
     id: 1,
     title: "FlavorBook - Recipe Sharing & Recipe, Chefs, Product Marketplace.",
