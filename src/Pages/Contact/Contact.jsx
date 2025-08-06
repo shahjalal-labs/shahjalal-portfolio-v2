@@ -143,8 +143,8 @@ const Contact = () => {
               {
                 icon: <MdWhatsapp className="text-emerald-400 text-2xl" />,
                 title: "WhatsApp",
-                value: "01989763775",
-                link: "https://wa.me/+8801989763775",
+                value: "01540325659",
+                link: "https://wa.me/+8801540325659",
               },
               {
                 icon: <MdLocationOn className="text-purple-400 text-2xl" />,

@@ -4,7 +4,20 @@ import gontobbo from "./ProjectsImage/gontobbo.png";
 import workelevate from "./ProjectsImage/workelevate.png";
 import deshguide from "./ProjectsImage/deshguide.png";
 import { FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
-import { SiMongodb, SiTailwindcss, SiExpress } from "react-icons/si";
+import {
+  SiMongodb,
+  SiTailwindcss,
+  SiExpress,
+  SiVite,
+  SiDaisyui,
+  SiFramer,
+  SiReactrouter,
+  SiReacthookform,
+  SiDatefns,
+  SiFirebase,
+  SiJsonwebtokens,
+  SiStripe,
+} from "react-icons/si";
 
 export const projects = [
   {
@@ -14,20 +27,19 @@ export const projects = [
       "DeshGuide is a feature-rich tourism platform built with React, empowering tourists, guides, and admins with package booking, story sharing, and Stripe payments. It showcases Bangladesh’s destinations with real-time updates, role-based dashboards, and modern UI/UX.",
     tech: [
       <FaReact title="React" />,
+      <SiVite title="Vite" />,
+      <SiTailwindcss title="Tailwind CSS" />,
+      <SiDaisyui title="DaisyUI" />,
+      <SiFramer title="Framer Motion" />,
+      <SiReactrouter title="React Router" />,
+      <SiReacthookform title="React Hook Form" />,
+      <SiDatefns title="Date-fns" />,
+      <SiFirebase title="Firebase" />,
+      <SiJsonwebtokens title="JWT" />,
+      <SiStripe title="Stripe" />,
       <SiExpress title="Express.js" />,
       <FaNodeJs title="Node.js" />,
       <SiMongodb title="MongoDB" />,
-      <SiTailwindcss title="Tailwind CSS" />,
-      <span title="DaisyUI">🌼</span>,
-      <span title="TanStack Query">🔄</span>,
-      <span title="Firebase">🔥</span>,
-      <span title="JWT Auth">🔐</span>,
-      <span title="Stripe">💳</span>,
-      <span title="React Router">🔀</span>,
-      <span title="React Hook Form">📝</span>,
-      <span title="Lottie React">🎞️</span>,
-      <span title="Framer Motion">🌀</span>,
-      <span title="Date-fns / Day.js">📅</span>,
     ],
     github: "https://github.com/shahjalal-labs/DeshGuide-client",
     live: "https://deshguide.surge.sh",
