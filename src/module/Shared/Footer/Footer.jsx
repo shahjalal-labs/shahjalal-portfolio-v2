@@ -18,7 +18,7 @@ const Footer = () => {
       label: "GitHub",
     },
     {
-      href: "https://linkedin.com/in/shahjalal",
+      href: "https://linkedin.com/in/shahjalal-labs",
       icon: (
         <FaLinkedin className="text-xl text-white group-hover:text-blue-400" />
       ),

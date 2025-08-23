@@ -47,6 +47,18 @@ export const projects = [
     cardColor: "bg-gradient-to-br from-emerald-700/20 to-emerald-900/20",
     accent: "border-emerald-500/30",
   },
+  {
+    id: 2,
+    title: "EduVerse - Online Interactive Education Platform",
+    description:
+      "EduVerse is a MERN-based, fully authenticated, and interactive assignment submission platform designed for students and groups. With modern UI/UX, EduVerse enables students to collaborate, submit, and evaluate assignments seamlessly.",
+    tech: [<FaReact />, <SiExpress />, <FaNodeJs />, <SiMongodb />],
+    github: "https://github.com/shahjalal-labs/eduverse-client",
+    live: "https://edu-verse.surge.sh/",
+    image: eduverse,
+    cardColor: "bg-gradient-to-br from-purple-700/20 to-purple-900/20",
+    accent: "border-purple-500/30",
+  },
 
   {
     id: 1,
@@ -66,18 +78,7 @@ export const projects = [
     cardColor: "bg-gradient-to-br from-cyan-700/20 to-cyan-900/20",
     accent: "border-cyan-500/30",
   },
-  {
-    id: 2,
-    title: "EduVerse - Online Interactive Education Platform",
-    description:
-      "EduVerse is a MERN-based, fully authenticated, and interactive assignment submission platform designed for students and groups. With modern UI/UX, EduVerse enables students to collaborate, submit, and evaluate assignments seamlessly.",
-    tech: [<FaReact />, <SiExpress />, <FaNodeJs />, <SiMongodb />],
-    github: "https://github.com/shahjalal-labs/eduverse-client",
-    live: "https://edu-verse.surge.sh/",
-    image: eduverse,
-    cardColor: "bg-gradient-to-br from-purple-700/20 to-purple-900/20",
-    accent: "border-purple-500/30",
-  },
+
   {
     id: 3,
     title:

@@ -126,7 +126,7 @@ const Contact = () => {
                 icon: <FaLinkedin className="text-sky-400 text-2xl" />,
                 title: "LinkedIn",
                 value: "Connect with me",
-                link: "https://www.linkedin.com/in/tanvir-islam-rakib/",
+                link: "https://www.linkedin.com/in/shahjalal-labs/",
               },
               {
                 icon: <FaGithub className="text-gray-400 text-2xl" />,

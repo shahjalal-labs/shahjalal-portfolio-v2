@@ -16,7 +16,7 @@ const Navbar = () => {
             : "bg-gradient-to-br from-gray-900/50 to-gray-800/60 backdrop-blur-lg border border-gray-700/30 shadow-xl shadow-black/20"
         }`}
       >
-        <ul className="flex items-center space-x-1 md:space-x-4">
+        <ul className="max-sm:scale-x-85  flex items-center lg:space-x-8 ">
           {navbarItems.map(({ to, icon, text }) => (
             <NavbarItem key={to} to={to} icon={icon} text={text} />
           ))}
