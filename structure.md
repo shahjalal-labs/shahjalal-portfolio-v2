@@ -6,6 +6,7 @@
 ├── eslint.config.js
 ├── ghAbout.md
 ├── index.html
+├── NvimTree_1
 ├── package.json
 ├── PreviousREADME.md
 ├── public
@@ -36,7 +37,9 @@
 │   │   │   ├── Laptop.png
 │   │   │   └── Mobile.png
 │   │   ├── profile.jpeg
-│   │   └── react.svg
+│   │   ├── react.svg
+│   │   └── screenshots
+│   │       └── ss-10-08-43-AM_06-08-25.png
 │   ├── hooks
 │   │   └── useScrollPosition.js
 │   ├── index.css
@@ -82,6 +85,7 @@
 │   │   │   ├── ProjectCard.jsx
 │   │   │   ├── project.constant.jsx
 │   │   │   ├── ProjectsImage
+│   │   │   │   ├── deshguide.png
 │   │   │   │   ├── eduverse.png
 │   │   │   │   ├── flavorbook.png
 │   │   │   │   ├── gontobbo.png
@@ -100,6 +104,6 @@
 ├── structure.md
 └── vite.config.js
 
-33 directories, 65 files
+34 directories, 68 files
 
 ```
