@@ -13,9 +13,9 @@ const HomePage = () => {
       <About />
       <Skills />
       <Education />
-      <Contact />
       <Projects />
       <WorkFlow />
+      <Contact />
     </div>
   );
 };
